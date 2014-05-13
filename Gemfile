@@ -8,6 +8,10 @@ gem 'rails', '4.0.3'
 
 gem 'pg'
 
+gem 'bootstrap-sass'
+
+gem 'sqlite3', group: :development
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
