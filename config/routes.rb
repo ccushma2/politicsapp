@@ -2,6 +2,8 @@ Politicsapp::Application.routes.draw do
   root "page#index"
 
   get '/zip'=>"page#zip"
+
+  get '/mission'=>"page#mission"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

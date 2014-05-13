@@ -4,4 +4,7 @@ class PageController < ApplicationController
 
   def zip
   end
+
+  def mission
+  end
 end
