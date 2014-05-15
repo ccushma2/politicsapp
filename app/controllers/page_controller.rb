@@ -7,4 +7,7 @@ class PageController < ApplicationController
 
   def mission
   end
+
+  def ashland
+  end
 end
