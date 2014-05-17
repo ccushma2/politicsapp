@@ -1,29 +1,90 @@
 <div class="container">
 	<h1>Your Zip Code: 01721<h1>
+	
 	<h2>Town</h2>
-	<h3>Board of Selectmen</h3>
-		<p>Joseph J. Magnani, Jr. 2016</p>
-		<p>Steven Mitchell 2014</p>
-		<p>Yolanda Greaves 2015</p>
-		<p>Paul D. Monaco 2015</p>
-		<p>Mark D. Juitt 2016</p>
+	<div class="row">
+		<h3>Board of Selectmen</h3>
+		<div class="col-md-2">	
+			<p>Joseph J. Magnani, Jr. 2016</p>
+		</div>
+		<div class="col-md-2">	
+			<p>Steven Mitchell 2014</p>
+		</div>	
+		<div class="col-md-2">	
+			<p>Yolanda Greaves 2015</p>
+		</div>
+		<div class="col-md-2">	
+			<p>Paul D. Monaco 2015</p>
+		</div>
+		<div class="col-md-2">	
+			<p>Mark D. Juitt 2016</p>
+		</div>	
+	</div>
+	
 	<h2>State</h2>
-		<h3>Governor</h3>
-			<p>Deval Patrick</p>
-		<h3>State Senator</h3>
-			<p>Karen Spilka</p>
-		<h3>State Representative</h3>
-			<p>Tom Sannicandro</p>
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Governor</h3>
+			<div class="row">
+				<img src="http://dcclothesline.com/wp-content/uploads/2013/04/massachusetts-governor-deval-patrick.jpg" class="img-responsive img-circle" alt="Deval Patrick"/>
+				<p>Deval Patrick</p>
+			</div>	
+		</div>
+		<div class="col-md-4">		
+			<h3>State Senator</h3>
+			<div class="row">
+				<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Massachusetts_State_Senator_Karen_Spilka.jpg/220px-Massachusetts_State_Senator_Karen_Spilka.jpg" class="img-responsive img-circle" alt="Karen Spilka"/>
+				<p>Karen Spilka</p>
+			</div>	
+		</div>
+		<div class="col-md-4">		
+			<h3>State Representative</h3>
+			<div class="row">
+				<img src="http://www.framingham.com/news/wp-content/uploads/2011/07/ma-rep-tom-sannicandro.jpg" class="img-responsive img-circle" alt="Tom Sannicandro"/>
+				<p>Tom Sannicandro</p>
+			</div>	
+		</div>	
+
 	<h2>Federal</h2>
-		<h3>Congressional Representative</h3>
-			<p>Katherine Clark</p>
-		<h3>US Senators</h3>
-			<p>Elizabeth Warren</p>
-			<p>Edward Markey</p>
-		<h3>Vice President</h3>
-			<p>Joe Biden</p>
-		<h3>President</h3>
-			<p>Barack Obama</p>
+	<div class="row">	
+		<div class="col-md-3">
+			<h3>Congressional Representative</h3>
+			<div class="row">
+				<img src="http://huntnewsnu.com/files/2013/10/img_1573.jpg" class="img-responsive img-circle" alt="Katherine Clark"/>
+				<p>Katherine Clark</p>
+			</div>	
+		</div>
+		<div class="col-md-3">
+			<h3>US Senators</h3>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="http://elizabethwarren.com/splash-images/4.jpg" class="img-responsive img-circle" alt="Elizabeth Warren"/>
+					<p>Elizabeth Warren</p>
+				</div>
+				<div class="col-md-4">
+					<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Edward_Markey,_official_portrait,_114th_Congress.jpg/220px-Edward_Markey,_official_portrait,_114th_Congress.jpg" class="img-responsive img-circle" alt="Edward Markey"/>
+					<p>Edward Markey</p>
+				</div>	
+			</div>
+		</div>
+		<div class="col-md-3">
+			<h3>Vice President</h3>
+			<div class="row">
+				<div class="col-md-offset-1">
+					<img src="http://www.timeforkids.com/files/BIDEN_TOUT2.jpg" class="img-responsive img-circle" alt="Joe Biden"/>
+					<p>Joe Biden</p>
+				</div>	
+			</div>
+		</div>
+		<div class="col-md-3">	
+			<h3>President</h3>
+			<div class="row">
+				<img src="http://rack.1.mshcdn.com/media/ZgkyMDEyLzEyLzA0L2IzL2JhcmFja29iYW1hLmMzWi5qcGcKcAl0aHVtYgk5NTB4NTM0IwplCWpwZw/5b0bff81/e0a/barack-obama-look-alike-wants-privacy-and-bar-mitzvah-gigs-223a5782e9.jpg" class="img-responsive img-circle" alt="Barack Obama"/>
+				<p>Barack Obama</p>
+			</div>
+		</div>	
+	</div>		
+
 <script type="text/javascript">
 
 today = new Date();
@@ -44,7 +105,7 @@ hrsLeft = Math.floor(e_hrsLeft);
 
 minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
 
-document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until voting day!<P>");
+document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until the next presidential election!<P>");
 
 </script>
 </div>
