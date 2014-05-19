@@ -7,6 +7,12 @@ Politicsapp::Application.routes.draw do
 
   get '/ashland'=>"page#ashland"
 
+  get '/town'=>"page#town"
+
+  get '/state'=>"page#state"
+
+  get 'federal'=>"page#federal"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

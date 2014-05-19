@@ -10,4 +10,13 @@ class PageController < ApplicationController
 
   def ashland
   end
+
+  def town
+  end
+
+  def state
+  end
+
+  def federal
+  end
 end
