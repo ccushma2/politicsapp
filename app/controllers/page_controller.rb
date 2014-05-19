@@ -19,4 +19,7 @@ class PageController < ApplicationController
 
   def federal
   end
+
+  def contact
+  end
 end
