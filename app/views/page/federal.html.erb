@@ -1,40 +1,43 @@
 <div class="container">
-<h2>Federal Representatives</h2>
+<h2>Federal Representatives <small>for Ashland MA</small></h2>
 <hr>
 	<div class="row">	
 		<div class="col-md-4">
 			<h3>Congressional Representative</h3>
 			<div class="row">
-				<img src="http://huntnewsnu.com/files/2013/10/img_1573.jpg" class="img-responsive img-circle" alt="Katherine Clark"/>
+				<img class="img-responsive img-rounded" src="<%= image_path "KC.jpg" %>" alt="Katherine Clark"/>
 				<p><a href="http://katherineclark.house.gov/">Katherine Clark</a> (Democrat)</p>
 			</div>	
 		</div>
 		<div class="col-md-4">
-			<h3>US Senators</h3>
+			<h3>US Senator</h3>
+			<br>
 			<div class="row">
-				<img src="http://elizabethwarren.com/splash-images/4.jpg" class="img-responsive img-circle" alt="Elizabeth Warren"/>
+				<img class="img-responsive img-rounded" src="<%= image_path "EW.jpg" %>" alt="Elizabeth Warren"/>
 				<p><a href="http://www.warren.senate.gov/">Elizabeth Warren</a> (Democrat)</p>
 			</div>
 		</div>
 		<div class="col-md-4">
-			<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Edward_Markey,_official_portrait,_114th_Congress.jpg/220px-Edward_Markey,_official_portrait,_114th_Congress.jpg" class="img-responsive img-circle" alt="Edward Markey"/>
+			<h3>US Senator</h3>
+			<br>
+			<img class="img-responsive img-rounded" src="<%= image_path "EM.jpg" %>" alt="Edward Markey"/>
 			<p><a href="http://www.markey.senate.gov/">Edward Markey</a> (Democrat)</p>
 		</div>	
 	</div>
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-4 col-md-offset-2">
 			<h3>Vice President</h3>
 			<div class="row">
 				<div class="col-md-offset-1">
-					<img src="http://www.timeforkids.com/files/BIDEN_TOUT2.jpg" class="img-responsive img-circle" alt="Joe Biden"/>
+					<img class="img-responsive img-rounded" src="<%= image_path "JB.jpg" %>" alt="Joe Biden"/>
 					<p><a href="http://www.whitehouse.gov/administration/vice-president-biden">Joe Biden</a> (Democrat)</p>
 				</div>	
 			</div>
 		</div>
-		<div class="col-md-3">	
+		<div class="col-md-4">	
 			<h3>President</h3>
 			<div class="row">
-				<img src="http://rack.1.mshcdn.com/media/ZgkyMDEyLzEyLzA0L2IzL2JhcmFja29iYW1hLmMzWi5qcGcKcAl0aHVtYgk5NTB4NTM0IwplCWpwZw/5b0bff81/e0a/barack-obama-look-alike-wants-privacy-and-bar-mitzvah-gigs-223a5782e9.jpg" class="img-responsive img-circle" alt="Barack Obama"/>
+				<img class="img-responsive img-rounded" src="<%= image_path "BO.jpg" %>" alt="Barack Obama"/>
 				<p><a href="http://www.barackobama.com/#get-the-facts">Barack Obama</a> (Democrat)</p>
 			</div>
 		</div>	
@@ -61,7 +64,7 @@
 
 		minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
 
-		document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until the next presidential election!<P>");
+		document.write("There are<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until the next presidential election!<P>");
 
 		</script>
 	</div>
