@@ -15,3 +15,29 @@
 //= require turbolinks
 //= require bootstrap
 //= require_tree .
+
+$(function() {
+
+
+		today = new Date();
+
+		BigDay = new Date("November 8, 2016");
+
+		msPerDay = 24 * 60 * 60 * 1000 ;
+
+		timeLeft = (BigDay.getTime() - today.getTime());
+
+		e_daysLeft = timeLeft / msPerDay;
+
+		daysLeft = Math.floor(e_daysLeft);
+
+		e_hrsLeft = (e_daysLeft - daysLeft)*24;
+
+		hrsLeft = Math.floor(e_hrsLeft);
+
+		minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+
+		$("#result").html( "There are<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until the next presidential election!<P>");
+
+	
+});

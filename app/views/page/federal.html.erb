@@ -53,7 +53,7 @@
 		</div>	
 	</div>
 	<hr>		
-	<div>
+	<div class="text-center">
 		<div class="btn-group">
 			<a class="btn btn-info" role="button" href="/town">Town</a>
 			<a class="btn btn-info" role="button" href="/state">State</a>
@@ -62,30 +62,8 @@
 	</div>
 	<br>
 	<div class="bg-success">
-		<script type="text/javascript">
-
-		today = new Date();
-
-		BigDay = new Date("November 8, 2016");
-
-		msPerDay = 24 * 60 * 60 * 1000 ;
-
-		timeLeft = (BigDay.getTime() - today.getTime());
-
-		e_daysLeft = timeLeft / msPerDay;
-
-		daysLeft = Math.floor(e_daysLeft);
-
-		e_hrsLeft = (e_daysLeft - daysLeft)*24;
-
-		hrsLeft = Math.floor(e_hrsLeft);
-
-		minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
-
-		document.write("There are<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until the next presidential election!<P>");
-
-		</script>
+		<div id="result"/>
 	</div>
 	<hr>
+	<br>
 </div>	
-<!--Having a lot of trouble with the script-->
