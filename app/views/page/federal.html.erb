@@ -6,7 +6,7 @@
 			<h3>Congressional Representative</h3>
 			<div class="row">
 				<a href="http://katherineclark.house.gov/">
-					<img class="img-responsive img-rounded center-block" src="<%= image_path "KC.jpg" %>" alt="Katherine Clark"/>
+					<img class="img-responsive img-circle center-block" src="<%= image_path "KC.jpg" %>" alt="Katherine Clark"/>
 				</a>
 				<p>Katherine Clark</p>
 			</div>	
@@ -16,7 +16,7 @@
 			<h3>US Senator</h3>
 			<div class="row">
 				<a href="http://www.warren.senate.gov/">
-					<img class="img-responsive img-rounded center-block" src="<%= image_path "EW.jpg" %>" alt="Elizabeth Warren"/>
+					<img class="img-responsive img-circle center-block" src="<%= image_path "EW.jpg" %>" alt="Elizabeth Warren"/>
 				</a>
 				<p>Elizabeth Warren</p>
 			</div>
@@ -25,7 +25,7 @@
 			<br>
 			<h3>US Senator</h3>
 			<a href="http://www.markey.senate.gov/">
-				<img class="img-responsive img-rounded center-block" src="<%= image_path "EM.jpg" %>" alt="Edward Markey"/>
+				<img class="img-responsive img-circle center-block" src="<%= image_path "EM.jpg" %>" alt="Edward Markey"/>
 			</a>
 			<p>Edward Markey</p>
 		</div>	
@@ -36,7 +36,7 @@
 			<div class="row">
 				<div class="col-md-offset-1">
 					<a href="http://www.whitehouse.gov/administration/vice-president-biden">
-						<img class="img-responsive img-rounded center-block" src="<%= image_path "JB.jpg" %>" alt="Joe Biden"/>
+						<img class="img-responsive img-circle center-block" src="<%= image_path "JB.jpg" %>" alt="Joe Biden"/>
 					</a>
 					<p>Joe Biden</p>
 				</div>	
@@ -46,7 +46,7 @@
 			<h3>President</h3>
 			<div class="row">
 				<a href="http://www.barackobama.com/#get-the-facts">
-					<img class="img-responsive img-rounded center-block" src="<%= image_path "BO.jpg" %>" alt="Barack Obama"/>
+					<img class="img-responsive img-circle center-block" src="<%= image_path "BO.jpg" %>" alt="Barack Obama"/>
 				</a>
 				<p>Barack Obama</p>
 			</div>
@@ -60,32 +60,6 @@
 			<a class="btn btn-info" role="button" href="/federal">Federal</a>
 		</div>
 	</div>
-	<br>
-	<div class="bg-success">
-		<div id="result"/>
-	</div>
 	<hr>
 	<br>
 </div>	
-<script type="text/javascript">
-		today = new Date();
-
-		BigDay = new Date("November 8, 2016");
-
-		msPerDay = 24 * 60 * 60 * 1000 ;
-
-		timeLeft = (BigDay.getTime() - today.getTime());
-
-		e_daysLeft = timeLeft / msPerDay;
-
-		daysLeft = Math.floor(e_daysLeft);
-
-		e_hrsLeft = (e_daysLeft - daysLeft)*24;
-
-		hrsLeft = Math.floor(e_hrsLeft);
-
-		minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
-
-		$("#result").html( "There are<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until the next presidential election!<P>");
-
-	</script>
