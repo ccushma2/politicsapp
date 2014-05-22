@@ -23,10 +23,10 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="/mission">Mission</a></li>
-      <li><a href="/zip">New Search</a></li> 
+      <li><%= link_to "Mission", mission_path %></li>
+      <li><%= link_to "New Search", zip_path %></li> 
     <% if user_signed_in? %>
-      <li><%= link_to "Sign out", destroy_user_session_path %></li>
+      <li><%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
     <% else %>
       <li><%= link_to "Sign Up", new_user_registration_path %></li>
       <li><%= link_to "Sign In", new_user_session_path %></li>
