@@ -1,4 +1,5 @@
 Politicsapp::Application.routes.draw do
+  devise_for :users
   root "page#index"
 
   get '/zip'=>"page#zip"
